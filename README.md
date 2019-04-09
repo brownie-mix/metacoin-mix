@@ -1,2 +1,5 @@
-# metacoin-mix
-MetaCoin smart contracts example - brownie version
+# MetaCoin-Mix
+MetaCoin smart contracts example - Brownie version
+
+## Installation
+`brownie bake metacoin`
