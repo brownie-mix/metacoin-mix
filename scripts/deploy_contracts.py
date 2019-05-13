@@ -3,5 +3,5 @@ from brownie import *
 
 
 def main():
-    ConvertLib.deploy(accounts[0])
-    MetaCoin.deploy(accounts[0])
+    ConvertLib.deploy({'from': accounts[0]})
+    MetaCoin.deploy({'from': accounts[0]})
